@@ -7,7 +7,7 @@ to it is successful or not.
 import getpass
 import paramiko
 
-def verify_ssh_connetion(hosts, username, password):
+def verify_ssh_connetion(hosts: list, username: str, password: str) -> None:
     """
     Function that checks ssh connection.
     """
