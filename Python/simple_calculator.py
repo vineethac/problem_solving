@@ -3,7 +3,7 @@ Write a program to add and sub two
 numbers using class.
 '''
 
-class Calulator():
+class Calculator():
     """
     Calculator class.
     """
@@ -23,7 +23,7 @@ def main():
     """
     Main function.
     """
-    calc = Calulator()
+    calc = Calculator()
 
     s1 = calc.add(2, 3)
     s2 = calc.sub(2, 3)
